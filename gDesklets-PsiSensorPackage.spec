@@ -3,15 +3,16 @@ Summary:	This package contains all Psi sensors
 Summary(pl):	Ten pakiet zawiera wszystkie czujniki Psi
 Name:		gDesklets-%{pname}
 Version:	20031028
-Release:	3
+Release:	4
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
 # Source0-md5:	24c891e1d0f66426040b4e4fb618f9f5
 URL:		http://gdesklets.gnomedesktop.org/categories.php?func=gd_show_app&gd_app_id=38
-BuildRequires:	python >= 2.3
+BuildRequires:	python >= 1:2.3
 BuildRequires:	python-pygtk-gtk >= 1.99.18
 Requires:	gDesklets
+%pyrequires_eq	python-libs
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
