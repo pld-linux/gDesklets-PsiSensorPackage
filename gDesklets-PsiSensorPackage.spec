@@ -1,4 +1,4 @@
-%define	pname	PsiSensorPackage
+%define		pname	PsiSensorPackage
 Summary:	This package contains all Psi sensors
 Summary(pl):	Ten pakiet zawiera wszystkie czujniki Psi
 Name:		gDesklets-%{pname}
@@ -15,7 +15,7 @@ Requires:	gDesklets
 Provides:	gDesklets-sensor
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define	_sensorsdir	%{_datadir}/gdesklets/Sensors
+%define		_sensorsdir	%{_datadir}/gdesklets/Sensors
 
 %description
 This package contains all Psi sensors.
