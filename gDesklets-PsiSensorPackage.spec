@@ -3,7 +3,7 @@ Summary:	This package contains all Psi sensors
 Summary(pl):	Ten pakiet zawiera wszystkie czujniki Psi
 Name:		gDesklets-%{pname}
 Version:	20031028
-Release:	2
+Release:	3
 License:	GPL
 Group:		X11/Applications
 Source0:	http://gdesklets.gnomedesktop.org/files/%{pname}-%{version}.tar.bz2
