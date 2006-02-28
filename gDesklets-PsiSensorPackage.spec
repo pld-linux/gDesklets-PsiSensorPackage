@@ -38,10 +38,10 @@ for i in $SENSORS; do
 	cd $i-*
 	[ -f ChangeLog ] && mv ChangeLog ChangeLog-$i
 	[ -f README ] && mv README README-$i
-	
+
 	./Install_${i}_Sensor.bin --nomsg \
 		$RPM_BUILD_ROOT%{_sensorsdir}
-		
+
 	cd ..
 done
 
