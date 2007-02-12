@@ -1,6 +1,6 @@
 %define		pname	PsiSensorPackage
 Summary:	This package contains all Psi sensors
-Summary(pl):	Ten pakiet zawiera wszystkie czujniki Psi
+Summary(pl.UTF-8):   Ten pakiet zawiera wszystkie czujniki Psi
 Name:		gDesklets-%{pname}
 Version:	20031028
 Release:	4
@@ -21,7 +21,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 This package contains all Psi sensors.
 
-%description -l pl
+%description -l pl.UTF-8
 Ten pakiet zawiera wszystkie czujniki Psi.
 
 %prep
